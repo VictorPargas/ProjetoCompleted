@@ -1,0 +1,84 @@
+.parcerias-banner {
+    display: block !important;
+    background: url(/media/css/img/Banner\ para\ loja\ de\ eletrônicos\ promoção\ desconto\ moderno\ preto\ e\ azul.jpg) center;
+    position: relative
+}
+
+.parcerias-banner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .5) 50.03%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.parcerias-banner .container {
+    background: 0 0 !important;
+    display: block !important;
+    text-align: center !important;
+    padding: 60px 0;
+    position: relative
+}
+
+.parcerias-banner a {
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    width: 150px;
+    padding: 15px;
+    background: #020155;
+    border-radius: 20px;
+    margin-left: -75px;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+    font-weight: 700
+}
+
+.parcerias-banner p {
+    display: block !important;
+    font-size: 26px;
+    margin-top: 20px
+}
+
+.parcerias-banner .title {
+    font-size: 43px;
+    line-height: 50px
+}
+
+.parcerias-banner .title b {
+    display: inline-block;
+    background: url(/media/css/img/oie_transparent.png) no-repeat left center;
+    background-size: cover;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 6px;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 50px;
+    color: transparent
+}
+
+.parcerias-banner .title b::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin-left: 29px;
+    left: 100%;
+    background: #fff
+}
+
+@media screen and (max-width: 555px) {
+    .parcerias-banner .title b {
+        margin-right: 0
+    }
+
+    .parcerias-banner .title b::after {
+        display: none
+    }
+}

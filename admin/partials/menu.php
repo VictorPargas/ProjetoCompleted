@@ -2,7 +2,7 @@
         <div class="logo_content">
           <div class="logo">
             <i class="bx bxs-parking"></i>
-            <div class="logo_name">Painel ADM</div>
+            <div class="logo_name">Painel B1SOFT</div>
           </div>
           <i class="bx bx-menu" id="btn"></i>
         </div>
@@ -35,8 +35,8 @@
                 <div class="profile_details">
                 <img src="img/logo1.jpg" alt="" />
                 <div class="name_job">
-                    <div class="name">Renan</div>
-                    <div class="job">Estágiario</div>
+                    <div class="name">Victor Parga</div>
+                    <div class="job">Analista</div>
                 </div>
                 </div>
                 <i class="bx bxs-log-out" id="log_out"></i>

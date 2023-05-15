@@ -9,7 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
 
     <!-- Bootstrap CSS v5.0.2 -->
     
@@ -19,6 +19,9 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="26738349877-31g488cp9enohpsrkdpo5dcm6no131of.apps.googleusercontent.com">
   </head>
   <body>
     <div class="screen-login">
@@ -62,6 +65,7 @@
                     </button>
                     <a id="recuperar-senha" href="#">Recuperar senha</a>
                   </div>
+                  <div class="g-signin2" data-onsuccess="onSignIn"></div>
                 </form>
               </div>
             </div>
@@ -69,6 +73,16 @@
         </div>
       </section>
     </div>
+<script>
+    function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+
+</script>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
