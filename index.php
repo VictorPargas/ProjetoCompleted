@@ -36,10 +36,10 @@
                         <li><a href="/Servicos/ConsuFuncional.html">Consultoria Funcional</a></li>
                     </ul>
                 </li>
-                <li><a href="/Home.html"><i><img src=""></i>Academy</a></li>
+                <li><a href="./Home.html"><i><img src=""></i>Academy</a></li>
                 <li><a target="_blank" href="#"><i class="icon-star"></i> Carreira</a></li>
-                <li><a href="/contato.html"><i class="icon-phone"></i> Contato</a></li>
-                <li><a href="./admin"><i class="icon-enter"></i> Login</a></li>
+                <li><a href="#contato"><i class="icon-phone"></i> Contato</a></li>
+                <li><a href="./admin/pages/login1.php"><i class="icon-enter"></i> Login</a></li>
             </ul>
         </nav>
     </header>
@@ -62,7 +62,7 @@
 <section class="page-section gray-bg"> <!--Section Video -->
                 <div class="container">
                     <div class="fancy-title"><span>Software</span>
-                        <h1>Conheça algumas das nossas Aplicaçôes!</h1>
+                        <h1>Conheça algumas das nossas Aplicações!</h1>
                     </div>
                         <iframe style="display: block; margin: 20px auto; max-width: 500px; width: 100%;"height="264px" src="https://www.youtube.com/embed/BOCKqjB-Z34?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <div class="features-1">  
@@ -72,8 +72,8 @@
             </section>
             <section>  <!--Section SAPB1-->
                 <div class="carousel">
-                    <a href="javascript:homeCarousel.prev()" class="nav-link">‹</a>
-                    <a href="javascript:homeCarousel.next()" class="nav-link">›</a>
+                    <a href="javascript:homeCarousel.prev()" class="nav-link"></a>
+                    <a href="javascript:homeCarousel.next()" class="nav-link"></a>
                     <div class="carousel-container siema" style="overflow: hidden; direction: ltr; cursor: -webkit-grab;">
                     <div class="carousel-banner parcerias-banner">
                         <div class="container">
@@ -88,7 +88,7 @@
             </section>
             <section class="page-section">
                 <div class="container form-container">
-                    <div>
+                    <div id="contato">
                         <div class="title-1"><h1>Vamos conversar!</h1><p>A B1Soft  entra em contato com você.</p>
                         </div><p>Basta preencher o formulário com seus dados e seu telefone que logo entraremos em contato!</p>
                     </div>
@@ -123,7 +123,7 @@
                             <li class="menu-item">Legal</li>
                             <li class="menu-item">Privacidade</li>
                             <li class="menu-item">Carreira</li>
-                            <li class="menu-iten">Contato</li>
+                            <li class="menu-item"><a href="#contato">Contato</a></li>
                         </ul>
                         <span class="copyright">&copy;2020, B1SOFT Sistemas. LTDA</span>
                         </footer>

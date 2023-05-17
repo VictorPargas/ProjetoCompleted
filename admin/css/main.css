@@ -220,6 +220,8 @@ body>header nav>ul a {
     font-weight: 400
 }
 
+
+
 body>header nav>ul a [class*=" icon-"],
 body>header nav>ul a [class^=icon-] {
     padding-right: 8px;
@@ -258,7 +260,9 @@ body>header nav>ul a img {
     }
 
     body>header nav>ul>li a:hover {
-        color: #333d47
+        background-color: #0052a5;
+        color: white;
+        
     }
 
     body>header nav>ul>li {
@@ -339,15 +343,15 @@ body>header nav>ul>li ul li:first-child b a {
 
 body>header nav>ul>li ul li a {
     display: block;
-    color: #333d47 !important;
+    color: #000000 !important;
     padding: 0;
     margin: 0;
     height: auto
 }
 
 body>header nav>ul>li ul li a:hover {
-    color: #888 !important;
-    text-decoration: underline
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
 
 body>header nav>ul>li:hover ul {
